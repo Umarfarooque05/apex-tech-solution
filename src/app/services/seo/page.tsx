@@ -100,7 +100,7 @@ export default function SeoPage() {
         <div className="max-w-5xl mx-auto px-4 text-center space-y-4">
           <h3 className="text-2xl font-bold text-slate-900">Our SEO Philosophy</h3>
           <p className="text-slate-600 leading-relaxed max-w-3xl mx-auto text-sm sm:text-base">
-            We focus on sustainable search authority. We do not make false promises like "guaranteed #1 rankings in 24 hours". Instead, we focus on technical accuracy, relevant keyword targeting, speed, and continuous improvement.
+            We focus on sustainable search authority. We do not make false promises like &ldquo;guaranteed #1 rankings in 24 hours&rdquo;. Instead, we focus on technical accuracy, relevant keyword targeting, speed, and continuous improvement.
           </p>
         </div>
       </section>

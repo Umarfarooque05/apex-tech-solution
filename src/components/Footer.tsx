@@ -3,7 +3,7 @@ import { Sparkles, Globe, Mail, Phone, MapPin, Linkedin, Instagram, Facebook, Ar
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-950 text-slate-300 pt-16 pb-24 md:pb-12 border-t border-slate-800 relative overflow-hidden">
+    <footer className="bg-[#070B19]/80 backdrop-blur-md text-slate-300 pt-16 pb-24 md:pb-12 border-t border-slate-800/60 relative overflow-hidden z-10">
       {/* Background glow accents */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-brand-500/10 rounded-full glow-blur pointer-events-none" />
       <div className="absolute bottom-0 left-10 w-80 h-80 bg-accent-cyan/5 rounded-full glow-blur pointer-events-none" />
@@ -43,7 +43,7 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="https://linkedin.com"
+                href={process.env.NEXT_PUBLIC_LINKEDIN_URL || "https://linkedin.com/company/apextechsolution"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:bg-brand-600 transition-colors"
@@ -52,7 +52,7 @@ export default function Footer() {
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href={process.env.NEXT_PUBLIC_INSTAGRAM_URL || "https://instagram.com/apextechsolution"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:bg-brand-600 transition-colors"
@@ -61,7 +61,7 @@ export default function Footer() {
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://facebook.com"
+                href={process.env.NEXT_PUBLIC_FACEBOOK_URL || "https://facebook.com/apextechsolution"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:bg-brand-600 transition-colors"
@@ -149,8 +149,19 @@ export default function Footer() {
 
             <div className="pt-2 space-y-2 text-xs text-slate-400">
               <div className="flex items-center gap-2">
+                <Phone className="w-3.5 h-3.5 text-brand-400" />
+                <a
+                  href={`tel:${(process.env.NEXT_PUBLIC_PHONE_NUMBER || "+91 98673 33477").replace(/\s+/g, "")}`}
+                  className="hover:text-white transition-colors"
+                >
+                  {process.env.NEXT_PUBLIC_PHONE_NUMBER || "+91 98673 33477"}
+                </a>
+              </div>
+              <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-brand-400" />
-                <span className="truncate">info@apextechsolution.in</span>
+                <a href="mailto:info@apextechsolution.in" className="truncate hover:text-white transition-colors">
+                  info@apextechsolution.in
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Globe className="w-3.5 h-3.5 text-brand-400" />

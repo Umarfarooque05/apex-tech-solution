@@ -17,6 +17,7 @@ export default function JsonLd() {
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "customer service",
+          "telephone": "+91-9867333477",
           "email": "info@apextechsolution.in",
           "availableLanguage": ["English", "Hindi"]
         }

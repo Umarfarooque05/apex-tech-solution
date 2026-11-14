@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileStickyCta from "@/components/MobileStickyCta";
 import JsonLd from "@/components/JsonLd";
+import ThreeExaltScene from "@/components/ThreeExaltScene";
 
 const fontSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -77,6 +78,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://apextechsolution.in",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -89,9 +99,10 @@ export default function RootLayout({
       <head>
         <JsonLd />
       </head>
-      <body className="min-h-screen bg-[#FAFAFC] text-slate-900 font-sans flex flex-col antialiased selection:bg-brand-500 selection:text-white">
+      <body className="min-h-screen bg-[#070B19] text-slate-100 font-sans flex flex-col antialiased selection:bg-brand-500 selection:text-white relative">
+        <ThreeExaltScene fullScreen={true} />
         <Header />
-        <main className="flex-1 overflow-hidden pt-20">{children}</main>
+        <main className="flex-1 overflow-hidden pt-20 relative z-10">{children}</main>
         <Footer />
         <MobileStickyCta />
       </body>

@@ -12,22 +12,21 @@ const features = [
 
 export default function SoftwareFeatureSection() {
   return (
-    <section className="py-20 lg:py-28 bg-brand-950 text-white relative overflow-hidden">
+    <section className="py-20 lg:py-28 bg-transparent text-white border-b border-slate-800/40 relative overflow-hidden z-10">
       {/* Subtle Background Elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-brand-500/10 rounded-full glow-blur pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent-cyan/10 rounded-full glow-blur pointer-events-none" />
-      <div className="absolute inset-0 bg-grid-dark opacity-30 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-800 border border-brand-700 text-brand-300 text-xs font-bold uppercase tracking-wider">
+          <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-cyan-950/40 border border-cyan-500/30 text-cyan-300 text-xs font-bold uppercase tracking-wider backdrop-blur-sm">
             <Cpu className="w-3.5 h-3.5 text-accent-cyan" />
             Software Engineering
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
-            Turn Your Business Idea <span className="bg-gradient-to-r from-brand-300 via-blue-200 to-accent-cyan bg-clip-text text-transparent">Into Software</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white">
+            Turn Your Business Idea <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-indigo-300 bg-clip-text text-transparent">Into Software</span>
           </h2>
           <p className="text-slate-300 text-base sm:text-lg font-normal leading-relaxed">
             From internal business tools to customer-facing platforms, we build practical software designed around your workflow.
@@ -41,12 +40,12 @@ export default function SoftwareFeatureSection() {
             return (
               <div
                 key={idx}
-                className="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-brand-500/50 hover:bg-slate-900 transition-all duration-300 group"
+                className="p-6 rounded-2xl bg-slate-950/40 backdrop-blur-[3px] border border-slate-800/60 hover:border-cyan-500/50 hover:bg-slate-900/40 hover:-translate-y-1 transition-all duration-300 group"
               >
-                <div className="w-12 h-12 rounded-xl bg-brand-900/80 border border-brand-700/50 flex items-center justify-center text-accent-cyan mb-5 group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-xl bg-slate-800/80 border border-slate-700/60 flex items-center justify-center text-cyan-400 mb-5 group-hover:scale-110 transition-transform">
                   <Icon className="w-6 h-6" />
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2 group-hover:text-brand-300 transition-colors">
+                <h3 className="text-lg font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">
                   {item.title}
                 </h3>
                 <p className="text-sm text-slate-400 leading-relaxed">
@@ -58,13 +57,13 @@ export default function SoftwareFeatureSection() {
         </div>
 
         {/* Mock Software Dashboard UI */}
-        <div className="bg-slate-900 rounded-3xl border border-slate-800 p-6 sm:p-8 shadow-2xl relative overflow-hidden">
+        <div className="bg-slate-950/50 backdrop-blur-[4px] rounded-3xl border border-slate-800/70 p-6 sm:p-8 shadow-2xl relative overflow-hidden">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             
             <div className="space-y-4 max-w-xl text-left">
-              <span className="text-xs font-mono text-accent-cyan tracking-wider uppercase">Custom Platform Preview</span>
-              <h3 className="text-2xl font-bold text-white">Built for Speed, Reliability & Security</h3>
-              <p className="text-slate-400 text-sm leading-relaxed">
+              <span className="text-xs font-mono text-cyan-400 tracking-wider uppercase">Custom Platform Preview</span>
+              <h3 className="text-2xl font-bold text-white">Built for Speed, Reliability &amp; Security</h3>
+              <p className="text-slate-300 text-sm leading-relaxed">
                 We develop full-stack applications using Next.js, React, Node.js, and modern cloud databases—ensuring fast page speeds, role-based access, and enterprise-grade data encryption.
               </p>
               <div className="flex flex-wrap items-center gap-4 text-xs text-slate-300 pt-2">
@@ -77,10 +76,10 @@ export default function SoftwareFeatureSection() {
             <div className="shrink-0 w-full lg:w-auto">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl text-base font-bold text-slate-900 bg-white hover:bg-slate-100 transition-all shadow-xl hover:scale-105"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl text-base font-bold text-white bg-gradient-to-r from-brand-600 via-blue-600 to-accent-cyan hover:from-brand-500 hover:to-cyan-400 transition-all shadow-xl shadow-cyan-950/40 hover:scale-105 active:scale-95"
               >
                 <span>Discuss Your Project</span>
-                <ArrowRight className="w-5 h-5 text-brand-600" />
+                <ArrowRight className="w-5 h-5 text-white" />
               </Link>
             </div>
 
