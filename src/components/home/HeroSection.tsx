@@ -123,41 +123,8 @@ export default function HeroSection() {
               <div className="w-3/4 h-3/4 rounded-full bg-gradient-to-tr from-cyan-500/10 via-brand-500/5 to-transparent blur-2xl" />
             </div>
 
-            {/* Floating Top Telemetry Pill */}
-            <div className="absolute top-2 sm:top-4 right-2 sm:right-6 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-950/85 border border-cyan-500/40 text-cyan-300 text-xs font-mono backdrop-blur-md shadow-xl shadow-cyan-950/40">
-              <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping" />
-              <span>3D Neural Core: Live</span>
-            </div>
-
-            {/* Floating Left Stat Chip */}
-            <div className="absolute bottom-16 -left-2 sm:left-2 p-3 rounded-2xl bg-slate-950/85 border border-slate-800/80 backdrop-blur-xl shadow-2xl flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center border border-cyan-500/30">
-                <Activity className="w-4.5 h-4.5" />
-              </div>
-              <div>
-                <div className="text-[10px] font-mono text-slate-400 uppercase tracking-wider">Lattice Nodes</div>
-                <div className="text-sm font-bold text-white font-mono">100k Synapses</div>
-              </div>
-            </div>
-
-            {/* Floating Right Stat Chip */}
-            <div className="absolute top-28 -right-2 sm:right-2 p-3 rounded-2xl bg-slate-950/85 border border-slate-800/80 backdrop-blur-xl shadow-2xl flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center border border-emerald-500/30">
-                <TrendingUp className="w-4.5 h-4.5" />
-              </div>
-              <div>
-                <div className="text-[10px] font-mono text-slate-400 uppercase tracking-wider">Optimization</div>
-                <div className="text-sm font-bold text-emerald-400 font-mono">+184% Growth</div>
-              </div>
-            </div>
-
             {/* Interactive Control Pill at Bottom */}
             <div className="absolute -bottom-2 inset-x-0 flex flex-col items-center gap-2">
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/90 border border-slate-700/80 text-[11px] font-mono text-slate-300 backdrop-blur-md shadow-lg">
-                <span className="text-cyan-400">✦</span>
-                <span>3D Screens &amp; Core Orbiting in Circle • Drag to Spin</span>
-              </div>
-
               <button
                 type="button"
                 onClick={() => setImmersiveMode(true)}
