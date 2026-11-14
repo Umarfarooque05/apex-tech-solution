@@ -5,7 +5,7 @@ import WhyUsSection from "@/components/home/WhyUsSection";
 import ProcessSection from "@/components/home/ProcessSection";
 import SeoFeatureSection from "@/components/home/SeoFeatureSection";
 import SoftwareFeatureSection from "@/components/home/SoftwareFeatureSection";
-import AiAutomationSection from "@/components/home/AiAutomationSection";
+import CustomWebApplicationSection from "@/components/home/CustomWebApplicationSection";
 import SelectedWorkSection from "@/components/home/SelectedWorkSection";
 import PreFooterCta from "@/components/PreFooterCta";
 
@@ -19,7 +19,7 @@ export default function Home() {
       <ProcessSection />
       <SeoFeatureSection />
       <SoftwareFeatureSection />
-      <AiAutomationSection />
+      <CustomWebApplicationSection />
       <SelectedWorkSection />
       <PreFooterCta />
     </>

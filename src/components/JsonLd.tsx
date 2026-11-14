@@ -27,7 +27,7 @@ export default function JsonLd() {
         "@id": "https://apextechsolution.in/#website",
         "url": "https://apextechsolution.in",
         "name": "Apex Tech Solution",
-        "description": "Apex Tech Solution helps businesses grow with SEO, digital marketing, website development, custom software, and AI automation.",
+        "description": "Apex Tech Solution helps businesses grow with SEO, digital marketing, website development, custom software, and custom web applications.",
         "publisher": {
           "@id": "https://apextechsolution.in/#organization"
         }
@@ -82,8 +82,8 @@ export default function JsonLd() {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "AI Automation",
-                "description": "AI chatbots, lead automation, AI workflows, and business process automation."
+                "name": "Custom Web Applications",
+                "description": "Bespoke SaaS platforms, client portals, internal workflow apps, APIs, and scalable cloud databases."
               }
             }
           ]

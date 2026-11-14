@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Search, TrendingUp, Code2, Cpu, Bot, Wrench, ArrowRight, Check } from "lucide-react";
+import { Search, TrendingUp, Code2, Cpu, AppWindow, Wrench, ArrowRight, Check } from "lucide-react";
 
 const services = [
   {
@@ -44,12 +44,12 @@ const services = [
   },
   {
     number: "05",
-    title: "AI Automation",
-    description: "Use AI to reduce repetitive work and improve business efficiency.",
-    items: ["AI Chatbots", "Lead Automation", "AI Workflows", "Document Processing", "Customer Support Automation", "Process Automation"],
-    cta: "Explore AI Solutions",
-    href: "/services/ai-automation",
-    icon: Bot,
+    title: "Custom Web Applications",
+    description: "Bespoke, scalable cloud web applications, client portals, and SaaS platforms built for speed and security.",
+    items: ["SaaS Platforms", "Client Portals", "Cloud Web Apps", "Interactive Dashboards", "REST & GraphQL APIs", "Custom Enterprise Systems"],
+    cta: "Explore Web Apps",
+    href: "/services/custom-web-applications",
+    icon: AppWindow,
     accent: "border-cyan-500/30 bg-cyan-500/10 text-cyan-400",
   },
   {

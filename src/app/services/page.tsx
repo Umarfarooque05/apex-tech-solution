@@ -6,7 +6,7 @@ import { Sparkles, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Our Services | SEO, Marketing, Web & Software Development",
-  description: "Explore Apex Tech Solution's core services: SEO, digital marketing, website development, custom software, and AI automation.",
+  description: "Explore Apex Tech Solution's core services: SEO, digital marketing, website development, custom software, and custom web applications.",
 };
 
 export default function ServicesPage() {

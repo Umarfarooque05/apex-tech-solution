@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/digital-marketing',
     '/services/web-development',
     '/services/software-development',
-    '/services/ai-automation',
+    '/services/custom-web-applications',
     '/about',
     '/work',
     '/contact',

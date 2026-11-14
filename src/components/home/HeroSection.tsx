@@ -74,7 +74,7 @@ export default function HeroSection() {
 
             {/* Supporting Text */}
             <p className="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-2xl">
-              We combine SEO, digital marketing, web development, custom software, and AI automation to help businesses attract customers, improve operations, and grow.
+              We combine SEO, digital marketing, web development, custom software, and custom web applications to help businesses attract customers, improve operations, and grow.
             </p>
 
             {/* CTAs */}

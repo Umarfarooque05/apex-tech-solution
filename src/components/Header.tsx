@@ -11,7 +11,7 @@ import {
   TrendingUp, 
   Code, 
   Cpu, 
-  Bot, 
+  AppWindow, 
   ArrowRight,
   ShieldCheck,
   Sparkles
@@ -22,7 +22,7 @@ const servicesList = [
   { name: "Digital Marketing", href: "/services/digital-marketing", icon: TrendingUp, desc: "Lead generation & paid strategy" },
   { name: "Website Development", href: "/services/web-development", icon: Code, desc: "High-performance responsive sites" },
   { name: "Software Development", href: "/services/software-development", icon: Cpu, desc: "Custom web apps & CRM systems" },
-  { name: "AI Automation", href: "/services/ai-automation", icon: Bot, desc: "Smart workflows & AI chatbots" },
+  { name: "Custom Web Applications", href: "/services/custom-web-applications", icon: AppWindow, desc: "Bespoke SaaS, portals & cloud apps" },
 ];
 
 export default function Header() {

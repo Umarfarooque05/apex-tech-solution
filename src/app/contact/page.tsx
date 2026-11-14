@@ -196,7 +196,7 @@ export default function ContactPage() {
                       <option value="Digital Marketing" className="bg-slate-950 text-white">Digital Marketing</option>
                       <option value="Website Development" className="bg-slate-950 text-white">Website Development</option>
                       <option value="Software Development" className="bg-slate-950 text-white">Software Development</option>
-                      <option value="AI Automation" className="bg-slate-950 text-white">AI Automation</option>
+                      <option value="Custom Web Applications" className="bg-slate-950 text-white">Custom Web Applications</option>
                       <option value="Other" className="bg-slate-950 text-white">Other Requirement</option>
                     </select>
                   </div>

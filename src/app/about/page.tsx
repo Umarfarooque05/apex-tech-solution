@@ -39,10 +39,10 @@ export default function AboutPage() {
                 Why We Built Apex Tech Solution
               </h2>
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                Too many businesses struggle with fragmented vendors—hiring one agency for SEO, another freelancer for a website, and feeling lost when trying to build internal software or adopt AI.
+                Too many businesses struggle with fragmented vendors—hiring one agency for SEO, another freelancer for a website, and feeling lost when trying to build internal software or custom web apps.
               </p>
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                We combine SEO, digital marketing, website development, custom software, and AI automation under one roof. Our goal is simple: deliver modern, sustainable digital solutions that help companies attract customers and operate efficiently.
+                We combine SEO, digital marketing, website development, custom software, and custom web applications under one roof. Our goal is simple: deliver modern, sustainable digital solutions that help companies attract customers and operate efficiently.
               </p>
             </div>
 

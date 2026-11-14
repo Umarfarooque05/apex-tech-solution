@@ -568,7 +568,7 @@ export default function ThreeExaltScene({
       // 1) Circular Orbit around Central Neural Engine (Hero Viewport) - 4 screens orbiting in a circle
       const heroTitles = [
         { title: "NextApp.tsx", tag: "React 19" },
-        { title: "neural_core.py", tag: "AI Lattice" },
+        { title: "CustomWebApp.tsx", tag: "Web App" },
         { title: "seo_schema.ts", tag: "Structured" },
         { title: "growth_crm.sql", tag: "PostgreSQL" },
       ];
@@ -589,7 +589,7 @@ export default function ThreeExaltScene({
       // 2) Circular Orbit around Secondary Neural Core (Services Overview, z = -34) - 3 screens in a ring
       const serviceTitles = [
         { title: "DigitalStrategy.ts", tag: "Growth" },
-        { title: "SmartWorkflow.ai", tag: "Automation" },
+        { title: "SaaSPortal.tsx", tag: "Cloud SaaS" },
         { title: "PerformanceApi.go", tag: "Sub-ms" },
       ];
       serviceTitles.forEach((t, i) => {
@@ -606,10 +606,10 @@ export default function ThreeExaltScene({
         );
       });
 
-      // 3) Circular Orbit around Tertiary Quantum Node (Software & AI, z = -90) - 3 screens in a ring
+      // 3) Circular Orbit around Tertiary Quantum Node (Software & Web Apps, z = -90) - 3 screens in a ring
       const lowerTitles = [
         { title: "CloudPipeline.yaml", tag: "Deploy" },
-        { title: "ModelInference.py", tag: "LLM Ops" },
+        { title: "WebPlatform.ts", tag: "Full-Stack" },
         { title: "AnalyticsQuery.sql", tag: "BigData" },
       ];
       lowerTitles.forEach((t, i) => {

@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     template: "%s | Apex Tech Solution",
   },
   description:
-    "Apex Tech Solution helps businesses grow with SEO, digital marketing, website development, custom software, and AI automation.",
+    "Apex Tech Solution helps businesses grow with SEO, digital marketing, website development, custom software, and custom web applications.",
   keywords: [
     "SEO India",
     "Digital Marketing Agency",
     "Website Development",
     "Custom Software Development",
-    "AI Automation Solutions",
+    "Custom Web Applications",
     "Local SEO India",
     "Apex Tech Solution",
     "Technology Partner India"

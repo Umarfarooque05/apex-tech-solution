@@ -18,7 +18,7 @@ export default function TermsAndConditionsPage() {
         <section className="space-y-4">
           <h2 className="text-xl font-bold text-slate-900">1. Acceptance of Terms</h2>
           <p className="text-sm leading-relaxed text-slate-600">
-            By accessing or using apextechsolution.in or engaging Apex Tech Solution for SEO, digital marketing, web development, custom software, or AI automation services, you agree to comply with these Terms & Conditions.
+            By accessing or using apextechsolution.in or engaging Apex Tech Solution for SEO, digital marketing, web development, custom software, or custom web application services, you agree to comply with these Terms & Conditions.
           </p>
         </section>
 

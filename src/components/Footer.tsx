@@ -97,8 +97,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services/ai-automation" className="text-slate-400 hover:text-white transition-colors">
-                  AI Automation
+                <Link href="/services/custom-web-applications" className="text-slate-400 hover:text-white transition-colors">
+                  Custom Web Applications
                 </Link>
               </li>
             </ul>
